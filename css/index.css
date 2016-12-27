@@ -1,0 +1,116 @@
+/*公共部分*/
+.w1200{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+.section{
+    overflow: hidden;
+}
+.transitionAll{
+    transition: all 1s;
+}
+/*头部导航开始*/
+.header{
+    width:100%;
+    height:60px;
+    position: fixed;
+    left: 0;
+    top:0;
+    background: #fff url(../images/sprite.png) repeat-x;
+    z-index: 100;
+}
+.inHeader{
+    width:960px;
+    height:60px;
+    margin: 0 auto;
+    /*background:pink;*/
+}
+.inHeader h1{
+    width:155px;
+    height: 60px;
+    text-indent: -9999px;
+    background: url(../images/logo.jpg) ;
+    float: left;
+    margin-right: 17px;
+    cursor: pointer;
+}
+.headerNav{
+    float: left;
+    height:60px;
+}
+.headerNav li{
+    float: left;
+    height: 100%;
+    font-weight: bold;
+    font-size: 14px;
+
+}
+.headerNav li a{
+    padding:0 20px;
+    color: #888888;
+    line-height: 60px;
+    display:inline-block;
+}
+.headerNav li .current,.headerNav li .clicked{
+    background: #FEA005;
+    color: #fff;
+}
+#menu .active a { color: #fff; background-color: #FEA005;}
+/*头部导航结束*/
+/* 每屏背景 */
+.page1{
+    background:url(../images/b1_bg.jpg) center center;
+}
+.page2{
+    background:url(../images/b2_bg.jpg) center center;
+}
+.page3{
+    background:url(../images/b3_bg.jpg) center center;
+}
+.page4{
+    background: url(../images/b5_bg.jpg) center center;
+}
+.page5{
+    background: url(../images/b6_bg.jpg) center center;
+}
+.page6 {
+    background: url(../images/b7_bg.jpg) center center;
+}
+/*第一屏*/
+.wind{
+    width: 709px;
+    height: 625px;
+    background: url("../images/b1_02.png");
+    position: absolute;
+    top: -230px;
+    left: 0;
+    z-index: 2;
+}
+.yingxiao{
+    width: 328px;
+    height: 162px;
+    background: url("../images/b1_03.png");
+}
+.btn{
+    width: 141px;
+    height: 39px;
+    background: url("../images/b1_03_btn.png");
+    margin-top: 10px;
+}
+.txt{
+    position: absolute;
+    top: -100px;
+    right:100px;
+}
+.stone{
+    width: 1440px;
+    height: 441px;
+    background: url("../images/b1_01.png");
+    position: absolute;
+    bottom:-500px;
+    left: -100px;
+}
+.comeIn .wind{
+
+}
